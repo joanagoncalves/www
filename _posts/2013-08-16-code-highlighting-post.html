@@ -1,0 +1,94 @@
+<hr>
+<p>layout: post
+title: Syntax Highlighting Post
+description: &quot;Demo post displaying the various ways of highlighting code in Markdown.&quot;
+tags: [sample post, code, highlighting]</p>
+<h2 id="comments-true">comments: true</h2>
+<p><a href="http://en.wikipedia.org/wiki/Syntax_highlighting">Syntax highlighting</a> is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.</p>
+<h3 id="pygments-code-blocks">Pygments Code Blocks</h3>
+<p>To modify styling and highlight colors edit <code>/assets/less/pygments.less</code> and compile <code>main.less</code> with your favorite preprocessor. Or edit <code>main.css</code> if that&#39;s your thing, the classes you want to modify all begin with <code>.highlight</code>.</p>
+<p>{% highlight css %}</p>
+<h1 id="container-">container {</h1>
+<pre><code>float: left;
+margin: 0 -240px 0 0;
+width: 100%;</code></pre>
+<p>}
+{% endhighlight %}</p>
+<p>Line numbering enabled:</p>
+<p>{% highlight html linenos %}
+{% raw %}</p>
+<p><nav class="pagination" role="navigation">
+    {% if page.previous %}
+        <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
+    {% endif %}
+    {% if page.next %}
+        <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
+    {% endif %}
+</nav><!-- /.pagination -->
+{% endraw %}
+{% endhighlight %}</p>
+<p>{% highlight ruby %}
+module Jekyll
+  class TagIndex &lt; Page
+    def initialize(site, base, dir, tag)
+      @site = site
+      @base = base
+      @dir = dir
+      @name = &#39;index.html&#39;
+      self.process(@name)
+      self.read_yaml(File.join(base, &#39;_layouts&#39;), &#39;tag_index.html&#39;)
+      self.data[&#39;tag&#39;] = tag
+      tag_title_prefix = site.config[&#39;tag_title_prefix&#39;] || &#39;Tagged: &#39;
+      tag_title_suffix = site.config[&#39;tag_title_suffix&#39;] || &#39;&#8211;&#39;
+      self.data[&#39;title&#39;] = &quot;#{tag_title_prefix}#{tag}&quot;
+      self.data[&#39;description&#39;] = &quot;An archive of posts tagged #{tag}.&quot;
+    end
+  end
+end
+{% endhighlight %}</p>
+<h3 id="standard-code-block">Standard Code Block</h3>
+<pre><code>{% raw %}
+&lt;nav class=&quot;pagination&quot; role=&quot;navigation&quot;&gt;
+    {% if page.previous %}
+        &lt;a href=&quot;{{ site.url }}{{ page.previous.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.previous.title }}&quot;&gt;Previous article&lt;/a&gt;
+    {% endif %}
+    {% if page.next %}
+        &lt;a href=&quot;{{ site.url }}{{ page.next.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.next.title }}&quot;&gt;Next article&lt;/a&gt;
+    {% endif %}
+&lt;/nav&gt;&lt;!-- /.pagination --&gt;
+{% endraw %}</code></pre>
+<h3 id="fenced-code-blocks">Fenced Code Blocks</h3>
+<p>To modify styling and highlight colors edit <code>/assets/less/coderay.less</code> and compile <code>main.less</code> with your favorite preprocessor. Or edit <code>main.css</code> if that&#39;s your thing, the classes you want to modify all begin with <code>.coderay</code>. Line numbers and a few other things can be modified in <code>_config.yml</code> under <code>coderay</code>.</p>
+<pre><code class="lang-css">#container {
+    float: left;
+    margin: 0 -240px 0 0;
+    width: 100%;
+}</code></pre>
+<pre><code class="lang-html">{% raw %}&lt;nav class=&quot;pagination&quot; role=&quot;navigation&quot;&gt;
+    {% if page.previous %}
+        &lt;a href=&quot;{{ site.url }}{{ page.previous.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.previous.title }}&quot;&gt;Previous article&lt;/a&gt;
+    {% endif %}
+    {% if page.next %}
+        &lt;a href=&quot;{{ site.url }}{{ page.next.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.next.title }}&quot;&gt;Next article&lt;/a&gt;
+    {% endif %}
+&lt;/nav&gt;&lt;!-- /.pagination --&gt;{% endraw %}</code></pre>
+<pre><code class="lang-ruby">module Jekyll
+  class TagIndex &lt; Page
+    def initialize(site, base, dir, tag)
+      @site = site
+      @base = base
+      @dir = dir
+      @name = &#39;index.html&#39;
+      self.process(@name)
+      self.read_yaml(File.join(base, &#39;_layouts&#39;), &#39;tag_index.html&#39;)
+      self.data[&#39;tag&#39;] = tag
+      tag_title_prefix = site.config[&#39;tag_title_prefix&#39;] || &#39;Tagged: &#39;
+      tag_title_suffix = site.config[&#39;tag_title_suffix&#39;] || &#39;&amp;#8211;&#39;
+      self.data[&#39;title&#39;] = &quot;#{tag_title_prefix}#{tag}&quot;
+      self.data[&#39;description&#39;] = &quot;An archive of posts tagged #{tag}.&quot;
+    end
+  end
+end</code></pre>
+<h3 id="github-gist-embed">GitHub Gist Embed</h3>
+<p>An example of a Gist embed below.</p>
+<p>{% gist mmistakes/6589546 %}</p>
