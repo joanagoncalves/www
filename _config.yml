@@ -11,6 +11,7 @@ owner:
   avatar:         joana.jpg
   bio:            "Computer scientist. Interests: algorithms, data mining, machine learning, computational biology."
   email:          research@joanagoncalves.org
+  mail-aspam:	  research[at]joanagoncalves.org
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter:        joanagoncalves
   facebook:       joana.pinho.goncalves
@@ -40,8 +41,8 @@ links:
     url: /about/
   - title: Posts
     url: /posts/
-  - title: Theme Setup
-    url: /theme-setup/
+  - title: Publications
+    url: /publications/
 #  - title: Made Mistakes
 #    url: http://mademistakes.com
 #    external: true
