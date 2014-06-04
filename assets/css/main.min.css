@@ -2081,7 +2081,7 @@ body {
     }
 }
 
-@media only screen and (min-width:86.375em) {
+@media only screen and (min-width:62em) {
     #main article {
         display: block;
 		position: absolute;
@@ -2115,7 +2115,7 @@ body {
     }
 }
 
-@media only screen and (min-width:86.375em) {
+@media only screen and (min-width:62em) {
     #index {
         display: block;
 		position: absolute;
@@ -2220,7 +2220,7 @@ body {
 }
 
 .article-author-side {
-	margin-top: 300px;
+	top: 300px;
 	position: fixed;
 }
 
@@ -2313,6 +2313,13 @@ body {
 }
 
 @media only screen and (min-width:62em) {
+	.article-author-side {
+		display: inline;
+        float: left;
+        width: 12.5%;
+		margin-left: 13%;
+	}
+
     .article-author-side h3,.article-author-side .bio-photo,.article-author-side p,.article-author-side .author-social {
         max-width: 150px;
     }
