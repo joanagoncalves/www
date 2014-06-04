@@ -2,6 +2,7 @@
 layout: post
 title: Syntax Highlighting Post
 description: "Demo post displaying the various ways of highlighting code in Markdown."
+category: blog
 tags: [sample post, code, highlighting]
 comments: true
 ---

@@ -26,7 +26,7 @@
     {% endif %}
   alt="{{ page.title }} feature image">
   {% if page.image.credit %}
-    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+    <span class="image-credit"><a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
   {% endif %}
   </div><!-- /.image-wrap -->
 {% endif %}
@@ -40,10 +40,20 @@
 <!--<div class="content-wrapper">-->
 
 <div id="index">
-	<h3>Short Biography</h3>
-<p>Joana P. Gonçalves received a 5-year “Licenciatura” in computer science from the University of Beira Interior, Covilhã, Portugal, in 2007, and a PhD in computer science from Instituto Superior Técnico, Technical University of Lisbon, Portugal, in 2013. She was a doctoral researcher at INESC-ID in Lisbon between 2007 and 2013, a visiting scholar at the University of Leuven, Belgium, in 2009/2010, and a research assistant at Imperial College London, United Kingdom, in 2012. She is currently an ERCIM / Marie Curie postdoctoral fellow at the Centrum Wiskunde Informatica (CWI) in Amsterdam, The Netherlands. Her research interests include algorithms and data structures, pattern matching and recognition, data mining, machine learning and bioinformatics.</p>
+	<h3>Intro</h3>
+<p>I am an <a href="http://fellowship.ercim.eu" target="_blank">ERCIM / Marie Curie postdoctoral fellow</a> at the Centre for Computer Science and Mathematics in the Netherlands (<a href="http://www.cwi.nl" target="_blank">CWI</a>). My background is in computer science and I do research in applied machine learning and data mining to tackle interesting problems in diverse application domains, with an emphasis on molecular biology and functional genomics. I specialise in combinatorial pattern mining for biclustering and triclustering of time series data.</p>
 
-	
+	  <h3><a href="{{ site.url}}/news/">News and Events</a></h3>
+  {% for post in site.categories['news'] %}
+  <article>
+    {% if post.link %}
+      <h2 class="link-post"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time> <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="icon-link"></i></a></h2>
+    {% else %}
+      <h2><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time> <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+    {% endif %}
+	<p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+  </article>
+  {% endfor %}
 </div><!--/.index-->
 
 <!--<div id="index">

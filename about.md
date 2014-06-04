@@ -1,30 +1,34 @@
 ---
 layout: page
 permalink: /about/
-title: About the Theme
-tagline: Minimal Mistakes, a Jekyll Theme
-tags: [about, Jekyll, theme, responsive]
-modified: 9-9-2013
-comments: true
+title: Career and Research
 image:
-  feature: texture-feature-02.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
+  feature: voronoi.jpg
+  credit: Voronoi tesselation
+  creditlink: http://bl.ocks.org/mbostock/4060366
 ---
 
-Jekyll is pretty rad and figured releasing a cleaned up version of [my site](http://mademistakes.com)[^1] as a theme for others to hack and build on would be fun. So here be that theme --- I call it **Minimal Mistakes**, a responsive Jekyll theme with large featured images and solid typography. 
+## Short biography
 
-## Minimal Mistakes is all about:
+In September 2013 I joined the Centre for Computer Science and Mathematics in the Netherlands ([CWI](http://www.cwi.nl)) as an [ERCIM / Marie Curie postdoctoral fellow](http://fellowship.ercim.eu). Previously I received a PhD and a diploma in computer science respectively from the [Technical University of Lisbon](http://tecnico.ulisboa.pt) and the [University of Beira Interior](http://www.ubi.pt) (Portugal). I was also a doctoral researcher at [INESC-ID](http://www.inesc-id.pt) (Portugal), a visiting scholar at the [University of Leuven](http://www.kuleuven.be) (Belgium), and a research assistant at [Imperial College London](http://www.imperial.ac.uk) (UK). My research interests include algorithms, data mining, machine learning and computational biology. I specialise in combinatorial pattern mining for biclustering and triclustering of time series data.
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers. 
-* Minimal embellishments --- content first.
-* Large feature images for posts and pages.
-* Author sidebar to pimp your bio, photo[^2], and social media links.
-* Simple and clear permalink structure *(ie: domain.com/category/post-title)*
+## Research topics
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
+I develop data mining methods for interesting problems arising in different application domains. Currently, my research topics are:
 
-[^1]: Since open sourcing this theme I have released a couple other Jekyll themes. My website [Made Mistakes](http://mademistakes.com) is currently using a modified version of my [So Simple Theme](http://mmistakes.github.io/so-simple-theme/).
++ local pattern mining and subspace clustering (of time series data)
++ integrative mining of heterogeneous data
++ construction of global models from local patterns
 
-[^2]: Fancy avatars provided by [Brandon Mathis](http://brandonmathis.com/projects/fancy-avatars/demo/) under a [Creative Commons Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/).
+## Application domains
+
+Most of my research has been applied to molecular biology and functional genomics to further the understanding of biological processes and perturbations of these leading to disease. In particular, I have addressed the analysis of gene expression, TF-target binding or protein interaction data, as well as combinations of these, to identify patterns and functional modules putatively involved in:
+
++ response of yeast to different environmental stresses (microbiology)
++ pathologies in human, namely cancer and neurodegenerative diseases (biomedicine)
+
+My plan is to expand the application domain of my research to other fields in the future:
+
++ economic and financial sciences (e.g. health insurance, fraud detection)
++ social science (e.g. behavioral patterns, information and disease spreading - epidemiology)
++ education and research (e.g. impact of funding in research, return on investment)

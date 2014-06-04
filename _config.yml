@@ -1,8 +1,8 @@
 title:            Joana P. Gonçalves
 description:      Describe your website.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-#url:              http://joanagoncalves.github.io
-url:              http://localhost:4000
+url:              http://joanagoncalves.github.io
+#url:              http://localhost:4000
 disqus_shortname:
 
 # Owner/author information
@@ -13,8 +13,9 @@ owner:
   email:          research@joanagoncalves.org
   mail-aspam:	  research[at]joanagoncalves.org
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
+  gscholar:       NcQxaAsAAAAJ
   twitter:        joanagoncalves
-  facebook:       joana.pinho.goncalves
+  # facebook:       joana.pinho.goncalves
   github:         joanagoncalves
   stackoverflow:
   linkedin:       joanagoncalves/
@@ -26,7 +27,7 @@ owner:
   steam:
   dribbble:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    JoanaPGoncalves
+  # google_plus:    JoanaPGoncalves
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
@@ -39,10 +40,14 @@ bing_verify:
 links:
   - title: About
     url: /about/
-  - title: Posts
-    url: /posts/
+#  - title: Blog
+#    url: /blog/
   - title: Publications
     url: /publications/
+  - title: Software
+    url: /software/
+  - title: Contact
+    url: /contact/
 #  - title: Made Mistakes
 #    url: http://mademistakes.com
 #    external: true

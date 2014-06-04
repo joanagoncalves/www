@@ -2,6 +2,7 @@
 layout: post
 title: "Sample Link Post"
 description: "Example and code for using link posts."
+category: blog
 tags: [sample post, link post]
 link: http://mademistakes.com  
 share: true

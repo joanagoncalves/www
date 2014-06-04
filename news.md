@@ -1,9 +1,9 @@
 ---
-layout: post-index
-permalink: /blog/
-title: All Posts
-tagline: A List of Posts
-tags: [blog]
+layout: news-index
+permalink: /news/
+title: All News
+tagline: A List of News
+tags: [news]
 image:
   feature: voronoi.jpg
   credit: Voronoi tesselation

@@ -26,19 +26,19 @@ image:
 
 > **Gonçalves JP** and Madeira SC (2014) LateBiclustering: Efficient Heuristic Algorithm for Time-Lagged Bicluster Identification, *IEEE/ACM Transactions on Computational Biology and Bioinformatics*, In press. ***Advance access Mar 17, 2014.*** [`article`](https://dx.doi.org/doi:10.1109/TCBB.2014.2312007)
 
-> Teixeira MC, Monteiro PT, Guerreiro JF, **Gonçalves JP**, Mira NP, dos Santos SC, Cabrito TR, Palma M, Costa C, Francisco AP, Madeira SC, Oliveira AL, Freitas AT and Sá-Correia I (2014) The YEASTRACT database: an upgraded information system for the analysis of gene and genomic transcription regulation in Saccharomyces cerevisiae, *Nucleic Acids Research*, 42(D1):D161-D166. ***Advance access Oct 28, 2013.*** [`article`](http://dx.doi.org/doi:10.1093/nar/gkt1015)
+> Teixeira MC, Monteiro PT, Guerreiro JF, **Gonçalves JP**, Mira NP, dos Santos SC, Cabrito TR, Palma M, Costa C, Francisco AP, Madeira SC, Oliveira AL, Freitas AT and Sá-Correia I (2014) The YEASTRACT database: an upgraded information system for the analysis of gene and genomic transcription regulation in Saccharomyces cerevisiae, *Nucleic Acids Research*, 42(D1):D161-D166. [`article`](http://dx.doi.org/doi:10.1093/nar/gkt1015) [`website`](http://www.yeastract.com)
 
 <h3>2012</h3>
 
 > **Gonçalves JP**, Francisco AP, Moreau Y, and Madeira SC (2012) Interactogeneous: disease gene prioritization using heterogeneous networks and full topology scores, *PLoS ONE*, 11(7):e49634. [`article`](http://dx.doi.org/doi:10.1371/journal.pone.0049634)
 
-> **Gonçalves JP**, Francisco AP, Aires RS and Madeira SC (2012) Regulatory Snapshots: integrative mining of regulatory modules from expression time series and regulatory networks, *PLoS ONE*, 7(5):e35977. [`article`](http://dx.doi.org/doi:10.1371/journal.pone.0035977)
+> **Gonçalves JP**, Francisco AP, Aires RS and Madeira SC (2012) Regulatory Snapshots: integrative mining of regulatory modules from expression time series and regulatory networks, *PLoS ONE*, 7(5):e35977. [`article`](http://dx.doi.org/doi:10.1371/journal.pone.0035977) [`software`](http://kdbio.inesc-id.pt/software/regulatorysnapshots)
 
 > **Gonçalves JP**, Moreau Y and Madeira SC (2012) AliBiMotif: Integrating sequence alignment and biclustering to unravel transcription factor binding sites in DNA sequences, *International Journal on Data Mining and Bioinformatics*, 6(2):196-215. [`article`](http://dx.doi.org/doi:10.1504/ijdmb.2012.048198)
 
 <h3>2011</h3>
 
-> **Gonçalves JP**, Francisco AP, Mira NP, Teixeira MC, Sá-Correia I, Oliveira AL and Madeira SC (2011) TFRank: network-based prioritization of regulatory associations underlying transcriptional responses, *Bioinformatics*, 27(22):3149-3157. [`article`](http://dx.doi.org/doi:10.1093/bioinformatics/BTR546)
+> **Gonçalves JP**, Francisco AP, Mira NP, Teixeira MC, Sá-Correia I, Oliveira AL and Madeira SC (2011) TFRank: network-based prioritization of regulatory associations underlying transcriptional responses, *Bioinformatics*, 27(22):3149-3157. [`article`](http://dx.doi.org/doi:10.1093/bioinformatics/BTR546) [`software`](http://kdbio.inesc-id.pt/software/tfrank)
 
 > Nitsch D, Tranchevent L-C, **Gonçalves JP**, Vogt JK, Madeira SC and Moreau Y (2011) PINTA: a web server for network-based gene prioritization from expression data, *Nucleic Acids Research*, 39(Web server issue):W334-W338. [`article`](http://dx.doi.org/doi:10.1093/nar/gkr289)
 
@@ -48,13 +48,15 @@ image:
 
 <h3>2009</h3>
 
-> **Gonçalves JP**, Madeira SC and Oliveira AL (2009) BiGGEsTS: integrated environment for biclustering analysis of time series gene expression data, *BMC Research Notes*, 2:124. [`article`](http://dx.doi.org/doi:10.1186/1756-0500-2-124)
+> **Gonçalves JP**, Madeira SC and Oliveira AL (2009) BiGGEsTS: integrated environment for biclustering analysis of time series gene expression data, *BMC Research Notes*, 2:124. [`article`](http://dx.doi.org/doi:10.1186/1756-0500-2-124) [`software`](http://kdbio.inesc-id.pt/software/biggests)
 
-> **Gonçalves JP**, Grãos M and Valente AXCN (2009) Polar Mapper: a computational tool for integrated visualization of protein interaction networks and mRNA expression data, *Journal of the Royal Society Interface*, 6(39):881-896. [`article`](http://dx.doi.org/doi:10.1098/rsif.2008.0407)
+> **Gonçalves JP**, Grãos M and Valente AXCN (2009) Polar Mapper: a computational tool for integrated visualization of protein interaction networks and mRNA expression data, *Journal of the Royal Society Interface*, 6(39):881-896. [`article`](http://dx.doi.org/doi:10.1098/rsif.2008.0407) [`software`](http://kdbio.inesc-id.pt/software/polarmapper)
 
 ## Conference
 
-> **Gonçalves JP**, Madeira SC and Moreau Y, Network-based disease candidate gene prioritization: towards global diffusion in heterogeneous association networks, Proc. of the [*First International Workshop on Dynamic Networks and Knowledge Discovery (DyNaK 2010)*](http://kdd.di.unito.it/DyNaK2010/index.html), *European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases*, Barcelona, Spain, September 24, 2010. [`article`](http://sunsite.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-655/dynak2010_paper5.pdf)
+> **Gonçalves JP** and Madeira SC, Heuristic approaches for time-lagged biclustering, Proc. of the *Twelfth International Workshop on Data Mining and Bioinformatics (BIOKDD 2013)*, *ACM SIGKDD Conference on Knowledge Discovery and Data Mining, Chicago (KDD 2013)*, IL, EUA, August 11, 2013. [`article`](http://dx.doi.org/10.1145/2500863.2500865)
+
+> **Gonçalves JP**, Madeira SC and Moreau Y, Network-based disease candidate gene prioritization: towards global diffusion in heterogeneous association networks, Proc. of the [*First International Workshop on Dynamic Networks and Knowledge Discovery (DyNaK 2010)*](http://kdd.di.unito.it/DyNaK2010/index.html), *European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD 2010)*, Barcelona, Spain, September 24, 2010. [`article`](http://sunsite.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-655/dynak2010_paper5.pdf)
 
 > **Gonçalves JP** and Madeira SC (2010) e-BiMotif: Combining sequence alignment and biclustering to unravel structured motifs, Proc. of the [*Fourth International Workshop on Practical Applications of Computational Biology and Bioinformatics (IWPACBB 2010)*](http://iwpacbb2010.di.uminho.pt/), Advances in Bioinformatics, Springer Series Advances in Soft Computing, 74:181-191. [`article`](http://dx.doi.org/doi:10.1007/978-3-642-13214-8_24)
 
@@ -67,6 +69,8 @@ image:
 [`part 1`](http://www.inesc-id.pt/ficheiros/publicacoes/4308.pdf) [`part 2`](http://www.inesc-id.pt/ficheiros/publicacoes/4309.pdf)
 
 ## Posters
+
+> **Gonçalves JP** and Madeira SC, Heuristic discovery of time-lagged biclusters in gene expression time series, Twelfth Asia-Pacific Bioinformatics Conference (APBC 2014), Xangai, China, 17-19 de Janeiro, 2014.
 
 > **Gonçalves JP** and Madeira SC, Time-coherent triclustering: mining local transcriptional patterns in multiple expression time series, [*Tenth Asia-Pacific Bioinformatics Conference (APBC 2012)*](http://homepage.cs.latrobe.edu.au/ypchen/APBC2012/), Melbourne, Australia, January 17-19, 2012.
 *Best poster award, selected for oral presentation*
