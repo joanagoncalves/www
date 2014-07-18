@@ -2075,13 +2075,25 @@ body {
     #main article {
         display: inline;
         float: left;
-        width: 50%;
+        /*width: 50%;*/
         margin-right: 0;
-        margin-left: 0;
+        /*margin-left: 0;*/
     }
 }
 
-@media only screen and (min-width:62em) {
+@media only screen and (min-width:55em) {
+    #main article {
+        display: block;
+		position: absolute;
+        width: 51.7%;
+		margin-left: 36.3333333333334%;
+		padding-right: 12%;
+		top: 300px;
+		bottom: 3.5em;
+    }
+}
+
+@media only screen and (min-width:86.375em) {
     #main article {
         display: block;
 		position: absolute;
@@ -2109,13 +2121,25 @@ body {
     #index {
         display: inline;
 		float: left;
-        width: 50%;
+        /*width: 50%;*/
         margin-right: 0;
-        margin-left: 0;
+        /*margin-left: 0;*/
     }
 }
 
-@media only screen and (min-width:62em) {
+@media only screen and (min-width:55em) {
+    #index {
+        display: block;
+		position: absolute;
+        width: 51.7%;
+		margin-left: 36.3333333333334%;
+		padding-right: 12%;
+		top: 300px;
+		bottom: 3.5em;
+    }
+}
+
+@media only screen and (min-width:86.375em) {
     #index {
         display: block;
 		position: absolute;
@@ -2219,10 +2243,10 @@ body {
     font-size: 80%;
 }
 
-.article-author-side {
+/*.article-author-side {
 	top: 300px;
 	position: fixed;
-}
+}*/
 
 .article-author-side h3,.article-author-bottom h3 {
     margin-bottom: 0;
@@ -2277,14 +2301,14 @@ body {
 }
 
 @media only screen and (min-width:37.5em) {
-    .article-author-side {
+    /*.article-author-side {
         display: block;
         display: inline;
         float: left;
         width: 16.666666666666668%;
         margin-right: 4.166666666666667%;
         margin-left: 4.166666666666667%;
-    }
+    }*/
 
     .article-author-side h3,.article-author-side p,.article-author-side .author-social {
         display: block;
@@ -2312,12 +2336,14 @@ body {
 	}
 }
 
-@media only screen and (min-width:62em) {
+@media only screen and (min-width:55em) {
 	.article-author-side {
-		display: inline;
+		top: 300px;
+		position: fixed;
+		display: block;
         float: left;
         width: 12.5%;
-		margin-left: 13%;
+		margin-left: 12%;
 	}
 
     .article-author-side h3,.article-author-side .bio-photo,.article-author-side p,.article-author-side .author-social {
@@ -2327,7 +2353,9 @@ body {
 
 @media only screen and (min-width:86.375em) {
     .article-author-side {
-        display: inline;
+		top: 300px;
+		position: fixed;
+        display: block;
         float: left;
         width: 12.5%;
         margin-left: 16.666666666666668%;
@@ -2396,7 +2424,7 @@ body {
     }
 }
 
-@media only screen and (min-width:86.375em) {
+@media only screen and (min-width:55em) {
 	.toc {
 		position: fixed;
 	}
@@ -2604,7 +2632,7 @@ body {
 	background-color: inherit;
 }
 
-@media only screen and (min-width:86.375em) {
+@media only screen and (min-width:55em) {
 	.footer-wrap {
 		padding-top: 1em;
 		position: fixed;
@@ -2658,7 +2686,7 @@ body {
     }
 }
 
-@media only screen and (min-width:86.375em) {
+@media only screen and (min-width:55em) {
     .footer-wrap footer {
         display: inline;
         float: left;

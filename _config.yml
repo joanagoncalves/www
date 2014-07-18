@@ -1,5 +1,5 @@
 title:            Joana P. Gonçalves
-description:      Describe your website.
+description:      Researcher in algorithms, data mining, and computational biology.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
 url:              http://joanagoncalves.github.io
 #url:              http://localhost:4000
@@ -30,7 +30,7 @@ owner:
   # google_plus:    JoanaPGoncalves
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:
+google_analytics: UA-5796103-7
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
