@@ -10,11 +10,11 @@ image:
 
 ## Short biography
 
-In October 2014 I joined both the Pattern Recognition and Bioinformatics group at the Delft University of Technology ([PRB-TUDelft](http://prb.tudelft.nl)) and the Computational Cancer Biology group at the Netherlands Cancer Institute ([CCB-NKI](http://ccb.nki.nl)) as a postdoctoral fellow, working with Lodewyk Wessels. The year before I was as an [ERCIM / Marie Curie postdoctoral fellow](http://fellowship.ercim.eu) in the Algorithmic Computational Biology group at the Centre for Computer Science and Mathematics in the Netherlands ([CWI](http://www.cwi.nl)). Previously, I received a PhD and a 5-year diploma in computer science respectively from the [IST/Technical University of Lisbon](http://tecnico.ulisboa.pt), and the [University of Beira Interior](http://www.ubi.pt) (Portugal). I have also been a doctoral researcher at [INESC-ID](http://www.inesc-id.pt) (Portugal), a visiting scholar at the [University of Leuven](http://www.kuleuven.be) (Belgium), and a research assistant at [Imperial College London](http://www.imperial.ac.uk) (UK). My research interests include algorithms, data mining, machine learning and computational biology. I specialise in combinatorial pattern mining for biclustering and triclustering of time series data.
+In October 2014 I joined both the Pattern Recognition and Bioinformatics group at the Delft University of Technology ([PRB-TUDelft](http://prb.tudelft.nl)) and the Computational Cancer Biology group at The Netherlands Cancer Institute ([CCB-NKI](http://ccb.nki.nl)) as a postdoctoral fellow, working with Lodewyk Wessels. The year before I was as an [ERCIM / Marie Curie postdoctoral fellow](http://fellowship.ercim.eu) in the Algorithmic Computational Biology group led by Gunnar Klau at the Netherlands Centre for Mathematics and Computer Science ([CWI](http://www.cwi.nl)). Previously, I received a PhD in computer science from the [Technical University of Lisbon](http://tecnico.ulisboa.pt). I conducted my doctoral researcher at [INESC-ID](http://www.inesc-id.pt) (Portugal), and was a visiting scholar at the [University of Leuven](http://www.kuleuven.be) (Belgium). My research interests include algorithms, data mining, machine learning and computational biology. I specialise in combinatorial pattern mining for biclustering and triclustering of time series data.
 
 ## Research topics
 
-I develop data mining methods for interesting problems arising in different application domains. Currently, my research topics are:
+I develop data mining methods for relevant problems arising in diverse application domains. Currently, my research topics are:
 
 + local pattern mining and subspace clustering (of time series data)
 + integrative mining of heterogeneous data
@@ -22,7 +22,7 @@ I develop data mining methods for interesting problems arising in different appl
 
 ## Application domains
 
-Most of my research has been applied to molecular biology and functional genomics to further the understanding of biological processes and perturbations of these leading to disease. In particular, I have addressed the analysis of gene expression, TF-target binding or protein interaction data, as well as combinations of these, to identify patterns and functional modules putatively involved in:
+Most of my research has been applied to molecular biology and functional genomics to further the understanding of biological processes, and perturbations of these leading to disease. In particular, I have addressed the analysis of gene expression, TF-target binding or protein interaction data, as well as combinations of these, to identify patterns and functional modules putatively involved in:
 
 + response of yeast to different environmental stresses (microbiology)
 + pathologies in human, namely cancer and neurodegenerative diseases (biomedicine)
