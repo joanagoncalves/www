@@ -22,13 +22,11 @@ image:
 
 ## Journal
 
-<h3>2014</h3>
-
-> **Gonçalves JP** and Madeira SC (2014) LateBiclustering: Efficient Heuristic Algorithm for Time-Lagged Bicluster Identification, *IEEE/ACM Transactions on Computational Biology and Bioinformatics*, In press. ***Advance access Mar 17, 2014.*** [`article`](https://dx.doi.org/doi:10.1109/TCBB.2014.2312007)
+> **Gonçalves JP** and Madeira SC (2014) LateBiclustering: Efficient Heuristic Algorithm for Time-Lagged Bicluster Identification, *IEEE/ACM Transactions on Computational Biology and Bioinformatics*, 11(5):801-813. [`article`](https://dx.doi.org/doi:10.1109/TCBB.2014.2312007)
 
 > Teixeira MC, Monteiro PT, Guerreiro JF, **Gonçalves JP**, Mira NP, dos Santos SC, Cabrito TR, Palma M, Costa C, Francisco AP, Madeira SC, Oliveira AL, Freitas AT and Sá-Correia I (2014) The YEASTRACT database: an upgraded information system for the analysis of gene and genomic transcription regulation in Saccharomyces cerevisiae, *Nucleic Acids Research*, 42(D1):D161-D166. [`article`](http://dx.doi.org/doi:10.1093/nar/gkt1015) [`website`](http://www.yeastract.com)
 
-<h3>2012</h3>
+> Sun K, **Gonçalves JP**, Larminie C and Przulj N (2014) Predicting disease associations via biological network analysis, *BMC Bioinformatics*, 15(1):304. [`article`](http://www.biomedcentral.com/1471-2105/15/304/)
 
 > **Gonçalves JP**, Francisco AP, Moreau Y, and Madeira SC (2012) Interactogeneous: disease gene prioritization using heterogeneous networks and full topology scores, *PLoS ONE*, 11(7):e49634. [`article`](http://dx.doi.org/doi:10.1371/journal.pone.0049634)
 
@@ -36,17 +34,11 @@ image:
 
 > **Gonçalves JP**, Moreau Y and Madeira SC (2012) AliBiMotif: Integrating sequence alignment and biclustering to unravel transcription factor binding sites in DNA sequences, *International Journal on Data Mining and Bioinformatics*, 6(2):196-215. [`article`](http://dx.doi.org/doi:10.1504/ijdmb.2012.048198)
 
-<h3>2011</h3>
-
 > **Gonçalves JP**, Francisco AP, Mira NP, Teixeira MC, Sá-Correia I, Oliveira AL and Madeira SC (2011) TFRank: network-based prioritization of regulatory associations underlying transcriptional responses, *Bioinformatics*, 27(22):3149-3157. [`article`](http://dx.doi.org/doi:10.1093/bioinformatics/BTR546) [`software`](http://kdbio.inesc-id.pt/software/tfrank)
 
 > Nitsch D, Tranchevent L-C, **Gonçalves JP**, Vogt JK, Madeira SC and Moreau Y (2011) PINTA: a web server for network-based gene prioritization from expression data, *Nucleic Acids Research*, 39(Web server issue):W334-W338. [`article`](http://dx.doi.org/doi:10.1093/nar/gkr289)
 
-<h3>2010</h3>
-
 > Nitsch D, **Gonçalves JP**, Ojeda F, De Moor B and Moreau Y (2010) Candidate gene prioritization by network analysis of differential expression using machine learning approaches, *BMC Bioinformatics*, 11:460. [`article`](http://dx.doi.org/doi:10.1186/1471-2105-11-460)
-
-<h3>2009</h3>
 
 > **Gonçalves JP**, Madeira SC and Oliveira AL (2009) BiGGEsTS: integrated environment for biclustering analysis of time series gene expression data, *BMC Research Notes*, 2:124. [`article`](http://dx.doi.org/doi:10.1186/1756-0500-2-124) [`software`](http://kdbio.inesc-id.pt/software/biggests)
 
