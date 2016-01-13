@@ -20,8 +20,7 @@ image:
 </section><!-- /#table-of-contents -->
 
 ## In Preparation
-I have several ongoing projects and articles in preparation:
-
+Ongoing projects and articles in preparation:
 + **methodological**, with Lodewyk Wessels
     + methodology: a novel framework to identify mechanisms of transcriptional regulation involving potential activation delays from temporal transcriptomes and regulatory networks;
 + **methodological**, with Sara Madeira
