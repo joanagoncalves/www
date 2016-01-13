@@ -23,13 +23,13 @@ image:
 I have several ongoing projects and articles in preparation:
 
 + **methodological**, with Lodewyk Wessels
-    + methodology: a novel computational framework to identify mechanisms of transcriptional regulation involving potential activation delays from temporal transcriptomes and regulatory networks;
+    + methodology: a novel framework to identify mechanisms of transcriptional regulation involving potential activation delays from temporal transcriptomes and regulatory networks;
 + **methodological**, with Sara Madeira
-    + methodology: a novel triclustering algorithm for efficient identification of local aligned patterns from 3D temporal data.
+    + methodology: a novel triclustering algorithm for discovery of local aligned patterns from 3D temporal data.
 + **technological**, with Sara Madeira
     + software: an upgraded version of the BIGGESTS software including the LateBiclustering algorithm;
 + **biological**, with Lodewyk Wessels in collaboration with Wilbert Zwart (Netherlands Cancer Institute)
-    + application: study of androgen response in prostate cancer and identification of potential therapeutic targets;
+    + application: study of androgen response in prostate cancer, identification of new therapeutic targets;
     + methodology: independent experimental and computational identification of mechanisms of transcriptional regulation with temporal delays;
     + preliminary results: notable concordance between mechanisms described in the literature, wet-lab experiments and computational predictions; experimental validation of novel computationally identified mechanisms.
 
