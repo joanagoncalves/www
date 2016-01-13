@@ -21,10 +21,11 @@ image:
 
 ## In Preparation
 Ongoing projects and articles in preparation:
+
 + **methodological**, with Lodewyk Wessels
     + methodology: a novel framework to identify mechanisms of transcriptional regulation involving potential activation delays from temporal transcriptomes and regulatory networks;
 + **methodological**, with Sara Madeira
-    + methodology: a novel triclustering algorithm for discovery of local aligned patterns from 3D temporal data.
+    + methodology: a novel triclustering algorithm for discovery of local aligned patterns from 3D temporal data;
 + **technological**, with Sara Madeira
     + software: an upgraded version of the BIGGESTS software including the LateBiclustering algorithm;
 + **biological**, with Lodewyk Wessels in collaboration with Wilbert Zwart (Netherlands Cancer Institute)
