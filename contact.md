@@ -9,10 +9,8 @@ image:
   creditlink: http://bl.ocks.org/mbostock/4060366
 ---
 
-> **E-mail:** research[at]joanagoncalves.org
-
 <figure>
-	<a href="http://prb.tudelft.nl"><img src="/images/tudelft-logo.jpg" width="300px"/></a>
+	<a href="http://prb.tudelft.nl"><img src="/images/tudelft-logo.jpg" width="150px"/></a>
 </figure>
 
 > **E-mail:** joana.goncalves [at] tudelft.nl<br/>
@@ -36,7 +34,7 @@ See: [map of the campus (building numbered 36)](http://www.ewi.tudelft.nl/filead
 > The Netherlands<br/>
 
 <figure>
-	<a href="http://ccb.tudelft.nl"><img src="/images/nki-avl-logo.jpg" width="300px"/></a>
+	<a href="http://ccb.tudelft.nl"><img src="/images/nki-avl-logo.jpg" width="150px"/></a>
 </figure>
 
 > **E-mail:** j.goncalves [at] nki.nl<br/>
